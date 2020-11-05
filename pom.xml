@@ -62,12 +62,13 @@
         </property>
       </activation>
       <properties>
-        <dekorate.version>999-SNAPSHOT</dekorate.version>
+        <dekorate.version>0.12-SNAPSHOT</dekorate.version>
       </properties>
       <dependencies>
         <dependency>
           <groupId>io.dekorate</groupId>
           <artifactId>tekton-annotations</artifactId>
+          <version>${dekorate.version}</version>
         </dependency>
       </dependencies>
     </profile>
